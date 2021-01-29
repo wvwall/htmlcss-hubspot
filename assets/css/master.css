@@ -1,0 +1,31 @@
+/* LAYOUT */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.conteiner {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+[class^="col-"] {
+  float: left;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+/* LAYOUT */
+ /* UTILITY */
+
+ .col-100 {
+   width: 100%;
+ }
+ .col-33 {
+   width: calc(100% / 3);
+ }

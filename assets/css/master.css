@@ -176,3 +176,26 @@ nav div a {
   position: relative;
   top: 180px;
 }
+ /* JUMBO */
+
+ /* MAIN */
+
+ .cube {
+   display: block;
+   margin: 30px auto;
+   width: 25%;
+   margin-bottom: 5px;
+ }
+.cube + h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #33475B;
+}
+.cube + h2 + p {
+  color: #33475B;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+}

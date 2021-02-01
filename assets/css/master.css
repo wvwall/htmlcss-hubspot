@@ -219,7 +219,7 @@ nav div a {
   box-shadow: 1px 1px 1px 1px lightgray;
   border-radius: 5px;
   margin-top: 30px;
-  height: 300px;
+  height: 320px;
   position: relative;
 }
 .book {
@@ -408,7 +408,7 @@ nav div a {
   float: left;
   width: 200px;
   color:#33475B;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 .customers h1 {
   margin-bottom: 30px;
@@ -458,24 +458,24 @@ nav div a {
 .start_grow h1 {
   width: 500px;
   font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .start_grow p{
   width: 450px;
   font-weight: 600;
   font-size: 13px;
   line-height: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .gethub-c {
   text-align: center;
   display: inline-block;
   width: 180px;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .get {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 11px;
   font-weight: 600;
   display: block;
@@ -484,9 +484,78 @@ nav div a {
   position: absolute;
   width: 28%;
   left: 70%;
-  bottom: 5%;
+  bottom: 12%;
 }
 /* FOOTER */
 .bg_footer {
+
   background-color: #32495B;
+}
+.bg_footer ul {
+  display: inline-block;
+  list-style: none;
+  margin-right: 76px;
+}
+.bg_footer li, a {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 14px;
+  font-weight: 450;
+} .bg_footer a {
+  color: #DADEE0;
+}
+.bg_footer  ul {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.bg_footer ul li:first-child {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.bg_footer a:hover {
+  text-decoration: underline;
+}
+.btn-f {
+  width: 200px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  color: #32495B;
+  background-color: #DADEE0;
+  font-weight: 500;
+  position: relative;
+  left: 75%;
+}
+.bg_footer i {
+  color: #DADEE0;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 75%;
+}
+.lingue  {
+  text-align: center;
+  margin-top: 60px;
+  border-bottom: 1px solid #DADEE0;
+  padding-bottom: 20px;
+}
+.lingue a {
+  font-size: 15px;
+  margin-right: 20px;
+}
+.logo_footer {
+  margin-top: 30px;
+}
+.copy span {
+  display: block;
+  color: #DADEE0;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.copy a {
+  float: right;
+  margin-left: 20px;
+  margin-top: 30px;
 }

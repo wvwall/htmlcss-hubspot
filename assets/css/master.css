@@ -27,7 +27,8 @@
    width: 100%;
  }
  .col-33 {
-   width: calc(90% / 3);
+   padding: 0 20px;
+   width: calc(100% / 3);
  }
 /* UTILITY */
 
@@ -219,12 +220,12 @@ nav div a {
   box-shadow: 1px 1px 1px 1px lightgray;
   border-radius: 5px;
   margin-top: 30px;
-  height: 320px;
+  height: 300px;
   position: relative;
 }
 .book {
   width: 13%;
-  margin-top: 6%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 
@@ -278,7 +279,7 @@ nav div a {
 .box-white li {
   font-size: 14px;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 .fa-check-circle {
   color: #FE775A;
@@ -290,20 +291,24 @@ nav div a {
   border-radius: 5px;
   margin-top: 50px;
 }
-.mr {
-  margin-right: 53px;
+.box-white-33 li {
+  margin-right: 20px;
+  margin-bottom: 5px;
 }
 .buble {
+  padding-top: 20px;
   width: 28%;
   display: block;
   margin: 20px auto;
 }
 .office {
+  padding-top: 20px;
   width: 35%;
   display: block;
   margin: 20px auto;
 }
 .table {
+  padding-top: 20px;
   width: 25%;
   display: block;
   margin: 20px auto;
@@ -393,9 +398,13 @@ nav div a {
   margin-bottom: 20px;
 }
 .board span {
-  font-size: 13px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.board h5 {
   font-weight: 500;
 }
+
 .sopra {
   border-bottom: 1px solid #fff;
 }
